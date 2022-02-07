@@ -17,6 +17,7 @@ public class DiplomaApplication {
 	public String getMessage() {
 		return "Hello from Docker!";
 	}
+
 		public static void main (String[] args){
 			SpringApplication.run(DiplomaApplication.class, args);
 		}
