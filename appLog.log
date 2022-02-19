@@ -1,0 +1,219 @@
+#d [INFO] com.demo.demo.DiplomaApplication [main] Starting DiplomaApplication using Java 17.0.2 on DESKTOP-HO5UU52 with PID 10736 (D:\java_projects\Diploma\target\classes started by HOLYDEADLORD in D:\java_projects\Diploma)
+#d [INFO] com.demo.demo.DiplomaApplication [main] No active profile set, falling back to default profiles: default
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+#d [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+#d [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+#d [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 981 ms
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+#d [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+#d [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+#d [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+#d [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+#d [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+#d [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+#d [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+#d [INFO] com.demo.demo.DiplomaApplication [main] Started DiplomaApplication in 3.272 seconds (JVM running for 3.816)
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+#d [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+#d [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+#d [INFO] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [http-nio-8080-exec-1] Attempting to connect to: [localhost:5672]
+#d [INFO] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [http-nio-8080-exec-1] Created new connection: rabbitConnectionFactory#54f373d4:0/SimpleConnection@6378bf63 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 63686]
+#d [INFO] com.demo.demo.Mq.MessagePublisher [http-nio-8080-exec-1] 1231124244
+#d [INFO] com.demo.demo.Mq.MessagePublisher [http-nio-8080-exec-3] 1231124244
+#d [INFO] com.demo.demo.Mq.MessagePublisher [http-nio-8080-exec-4] 1231124244
+#d [INFO] com.demo.demo.Mq.MessagePublisher [http-nio-8080-exec-5] 1231124244
+#d [INFO] com.demo.demo.DiplomaApplication [main] Starting DiplomaApplication using Java 17.0.2 on DESKTOP-HO5UU52 with PID 5500 (D:\java_projects\Diploma\target\classes started by HOLYDEADLORD in D:\java_projects\Diploma)
+#d [INFO] com.demo.demo.DiplomaApplication [main] No active profile set, falling back to default profiles: default
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+#d [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+#d [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+#d [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 959 ms
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+#d [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+#d [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+#d [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+#d [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+#d [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+#d [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+#d [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+#d [INFO] com.demo.demo.DiplomaApplication [main] Started DiplomaApplication in 3.241 seconds (JVM running for 3.739)
+#d [INFO] com.demo.demo.DiplomaApplication [main] Starting DiplomaApplication using Java 17.0.2 on DESKTOP-HO5UU52 with PID 18892 (D:\java_projects\Diploma\target\classes started by HOLYDEADLORD in D:\java_projects\Diploma)
+#d [INFO] com.demo.demo.DiplomaApplication [main] No active profile set, falling back to default profiles: default
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+#d [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+#d [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+#d [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 988 ms
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+#d [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+#d [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+#d [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+#d [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+#d [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+#d [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+#d [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+#d [INFO] com.demo.demo.DiplomaApplication [main] Started DiplomaApplication in 3.347 seconds (JVM running for 3.894)
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+#d [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+#d [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+#d [INFO] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [http-nio-8080-exec-1] Attempting to connect to: [localhost:5672]
+#d [INFO] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [http-nio-8080-exec-1] Created new connection: rabbitConnectionFactory#707f4647:0/SimpleConnection@1b2fc3e3 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 61766]
+#d [INFO] com.demo.demo.Mq.MessagePublisher [http-nio-8080-exec-1] 1231124244
+#d [INFO] com.demo.demo.DiplomaApplication [main] Starting DiplomaApplication using Java 17.0.2 on DESKTOP-HO5UU52 with PID 18320 (D:\java_projects\Diploma\target\classes started by HOLYDEADLORD in D:\java_projects\Diploma)
+#d [INFO] com.demo.demo.DiplomaApplication [main] No active profile set, falling back to default profiles: default
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+#d [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+#d [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+#d [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 950 ms
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+#d [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+#d [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+#d [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+#d [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+#d [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+#d [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+#d [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+#d [INFO] com.demo.demo.DiplomaApplication [main] Started DiplomaApplication in 3.153 seconds (JVM running for 3.797)
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+#d [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+#d [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+#d [INFO] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [http-nio-8080-exec-2] Attempting to connect to: [localhost:5672]
+#d [INFO] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [http-nio-8080-exec-2] Created new connection: rabbitConnectionFactory#2b9ecd05:0/SimpleConnection@834293e [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59541]
+#d [INFO] com.demo.demo.Mq.MessagePublisher [http-nio-8080-exec-2] 1231124244
+#d [INFO] com.demo.demo.DiplomaApplication [main] Starting DiplomaApplication using Java 17.0.2 on DESKTOP-HO5UU52 with PID 1148 (D:\java_projects\Diploma\target\classes started by HOLYDEADLORD in D:\java_projects\Diploma)
+#d [INFO] com.demo.demo.DiplomaApplication [main] No active profile set, falling back to default profiles: default
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+#d [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+#d [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+#d [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1001 ms
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+#d [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+#d [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+#d [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+#d [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+#d [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+#d [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+#d [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+#d [INFO] com.demo.demo.DiplomaApplication [main] Started DiplomaApplication in 3.216 seconds (JVM running for 3.783)
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+#d [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+#d [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+#d [INFO] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [http-nio-8080-exec-2] Attempting to connect to: [localhost:5672]
+#d [INFO] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [http-nio-8080-exec-2] Created new connection: rabbitConnectionFactory#507f47f9:0/SimpleConnection@70cfb7ed [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50103]
+#d [INFO] com.demo.demo.Mq.MessagePublisher [http-nio-8080-exec-2] 1231124244
+#d [INFO] com.demo.demo.DiplomaApplication [main] Starting DiplomaApplication using Java 17.0.2 on DESKTOP-HO5UU52 with PID 17908 (D:\java_projects\Diploma\target\classes started by HOLYDEADLORD in D:\java_projects\Diploma)
+#d [INFO] com.demo.demo.DiplomaApplication [main] No active profile set, falling back to default profiles: default
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+#d [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+#d [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+#d [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1004 ms
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+#d [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+#d [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+#d [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+#d [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+#d [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+#d [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+#d [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+#d [INFO] com.demo.demo.DiplomaApplication [main] Started DiplomaApplication in 3.206 seconds (JVM running for 3.718)
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+#d [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+#d [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+#d [INFO] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [http-nio-8080-exec-2] Attempting to connect to: [localhost:5672]
+#d [INFO] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [http-nio-8080-exec-2] Created new connection: rabbitConnectionFactory#2b9ecd05:0/SimpleConnection@64eea6b [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50152]
+#d [INFO] com.demo.demo.Mq.MessagePublisher [http-nio-8080-exec-2] 1231124244
+#d [INFO] com.demo.demo.DiplomaApplication [main] Starting DiplomaApplication using Java 17.0.2 on DESKTOP-HO5UU52 with PID 7984 (D:\java_projects\Diploma\target\classes started by HOLYDEADLORD in D:\java_projects\Diploma)
+#d [INFO] com.demo.demo.DiplomaApplication [main] No active profile set, falling back to default profiles: default
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+#d [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+#d [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+#d [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 963 ms
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+#d [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+#d [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+#d [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+#d [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+#d [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+#d [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+#d [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+#d [INFO] com.demo.demo.DiplomaApplication [main] Started DiplomaApplication in 3.196 seconds (JVM running for 3.739)
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+#d [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+#d [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+#d [INFO] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [http-nio-8080-exec-2] Attempting to connect to: [localhost:5672]
+#d [INFO] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [http-nio-8080-exec-2] Created new connection: rabbitConnectionFactory#2b9ecd05:0/SimpleConnection@42eb92f5 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50189]
+#d [INFO] com.demo.demo.Mq.MessagePublisher [http-nio-8080-exec-2] 1231124244
+#d [INFO] com.demo.demo.DiplomaApplication [main] Starting DiplomaApplication using Java 17.0.2 on DESKTOP-HO5UU52 with PID 18240 (D:\java_projects\Diploma\target\classes started by HOLYDEADLORD in D:\java_projects\Diploma)
+#d [INFO] com.demo.demo.DiplomaApplication [main] No active profile set, falling back to default profiles: default
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+#d [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+#d [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+#d [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 971 ms
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+#d [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+#d [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+#d [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+#d [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+#d [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+#d [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+#d [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+#d [INFO] com.demo.demo.DiplomaApplication [main] Started DiplomaApplication in 3.206 seconds (JVM running for 3.8)
+#d [INFO] com.demo.demo.DiplomaApplication [main] Starting DiplomaApplication using Java 17.0.2 on DESKTOP-HO5UU52 with PID 17616 (D:\java_projects\Diploma\target\classes started by HOLYDEADLORD in D:\java_projects\Diploma)
+#d [INFO] com.demo.demo.DiplomaApplication [main] No active profile set, falling back to default profiles: default
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+#d [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+#d [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+#d [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+#d [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+#d [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 942 ms
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+#d [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+#d [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+#d [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.4.Final
+#d [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+#d [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+#d [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+#d [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+#d [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+#d [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+#d [INFO] com.demo.demo.DiplomaApplication [main] Started DiplomaApplication in 3.124 seconds (JVM running for 3.675)
