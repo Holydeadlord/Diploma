@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
-@Service
+@Service //We mark beans with @Service to indicate that they're holding the business logic
 public class ClientServiceImpl implements ClientService {
 
     private final ClientRepository clientRepository;

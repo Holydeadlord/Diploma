@@ -2,7 +2,9 @@ package com.demo.demo.controller;
 
 import com.demo.demo.model.Client;
 import com.demo.demo.service.ClientService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -10,17 +12,19 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@Slf4j
  class ClientController {
 
     private final ClientService clientService;
 
-    @Autowired
+    @Autowired //внедрение по конструктору
     public ClientController(ClientService clientService) {
         this.clientService = clientService;
     }
 
     @PostMapping(value = "/clients")
     public ResponseEntity<?> create(@RequestBody Client client) {
+        log.info("Добавлен человек"+client.getName()+client.getEmail());
         clientService.create(client);
         return new ResponseEntity<>(HttpStatus.CREATED);
     }

@@ -16,6 +16,7 @@ import java.util.UUID;
 @RestController
 @Slf4j
 public class MessagePublisher {
+
     @Autowired
     private RabbitTemplate template;
 
@@ -24,10 +25,9 @@ public class MessagePublisher {
     public String  publishMessage(@RequestBody CustomMessage message){
     message.setMessageId(UUID.randomUUID().toString());
     message.setMessageDate(new Date());
-    template.convertAndSend(MQConfig.EXCHANGE,
+    template.convertSendAndReceive (MQConfig.EXCHANGE,
             MQConfig.ROUTING_KEY, message);
-    log.info("This is an info message",message.getMessage());
-
+    log.info("Cообщение полученное от сервера: "+ message.getMessage());
     return "Message Published";
     }
 }
