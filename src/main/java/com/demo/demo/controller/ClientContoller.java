@@ -24,7 +24,7 @@ import java.util.List;
 
     @PostMapping(value = "/clients")
     public ResponseEntity<?> create(@RequestBody Client client) {
-        log.info("Добавлен человек"+client.getName()+client.getEmail());
+        log.info("Добавлен человек"+client.getName())   ;
         clientService.create(client);
         return new ResponseEntity<>(HttpStatus.CREATED);
     }

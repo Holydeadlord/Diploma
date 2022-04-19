@@ -15,7 +15,10 @@ import java.util.Date;
 public class CustomMessage {
 
     private String messageId;
+    private String cardHolder;
+    private double cash;
+    private String cardReceiver;
     private String message;
-    private Date messageDate;
+    private Date Date;
+    }
 
-}

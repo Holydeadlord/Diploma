@@ -17,11 +17,11 @@ public class Client {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "email")
-    private String email;
-
     @Column(name = "card")
     private String card;
+
+    @Column(name="cash")
+    private double cash;
 
     public Integer getId() {
         return id;
@@ -39,19 +39,18 @@ public class Client {
         this.name = name;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public String getCard() {
         return card;
     }
 
     public void setCard(String card) {
         this.card = card;
+    }
+    public double getCash() {
+        return cash;
+    }
+
+    public void setCash(double cash) {
+        this.cash = cash;
     }
 }

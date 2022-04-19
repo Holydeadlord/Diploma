@@ -1,3 +1,3 @@
 INSERT INTO clients VALUES
-(1, 'Nikita', 'Nikita@gmail.com', '6549845-45-34)'),
-(2, 'Tima', 'Tima@gmail.com', '234-234-12-23)');
+(1, 'Polyakov Nikita', '4039-8109-9353-5653,30000.00)'),
+(2, 'Iskhakov Timur', '4810-4900-4036-7356,50000.00)');
