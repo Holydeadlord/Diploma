@@ -13,12 +13,13 @@ import java.util.Date;
 @ToString
 
 public class CustomMessage {
-
     private String messageId;
-    private String cardHolder;
+    private String cardHolderName;
+    private String cardOfHolder;
+    private String cardReceiverName;
+    private String cardOfReceiver;
     private double cash;
-    private String cardReceiver;
     private String message;
     private Date Date;
-    }
+}
 
